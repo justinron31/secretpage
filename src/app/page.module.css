@@ -240,3 +240,63 @@
   align-items: center;
   margin: 10px;
 }
+
+.requestStatus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.rejectButton {
+  padding: 5px;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  color: var(--tertiary-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.rejectButton:hover {
+  background-color: darkred;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: var(--tertiary-color);
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.acceptButton {
+  padding: 5px;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  color: var(--tertiary-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.acceptButton:hover {
+  background-color: darkgreen;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: var(--tertiary-color);
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.unfriendButton {
+  padding: 5px;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  color: var(--tertiary-color);
+  transition: all 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+.unfriendButton:hover {
+  background-color: darkred;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: var(--tertiary-color);
+  cursor: pointer;
+  transform: scale(1.05);
+}

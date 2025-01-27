@@ -358,7 +358,7 @@ export default function SecretPage3() {
                         ? "you"
                         : request.sender_email}
                     </p>
-                    <button
+                    <div className={styles.requestStatus}>  <button
                       onClick={() => handleRequest(request.id, "accepted")}
                       className={styles.acceptButton}
                     >
@@ -369,7 +369,8 @@ export default function SecretPage3() {
                       className={styles.rejectButton}
                     >
                       Reject
-                    </button>
+                    </button></div>
+
                   </li>
                 ))
               ) : (
